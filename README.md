@@ -26,15 +26,15 @@
 |Estructuración del módulo  de detección de P300<br>|Carlos|7|07-03-25|14-03-25| |
 |Estructuración del módulo  de detección de P300<br>|Hugo|7|07-03-25|14-03-25| |
 |Estructuración del módulo  de detección de P300<br>|Daniel|7|07-03-25|14-03-25| |
-|Extracción de características  específicas de P300.|<br>Carlos|15|14-03-25|29-03-25| |
+|Extracción de características  <br>específicas de P300.|Carlos|15|14-03-25|29-03-25| |
 |Implementación de un  modelo CNN con Batch<br> Normalization.|Hugo|15|14-03-25|29-03-25| |
 |Implementación de un  modelo Stacked Sparse Autoencoders<br> (SSAE).|Daniel|15|14-03-25|29-03-25| |
 |Validación de la  extracción de características específicas<br> de P300.|Carlos|7|29-03-25|05-04-25| |
 |Validación del modelo  CNN con Batch Normalization<br> mediante validación cruzada estratificada <br>k-fold y ajuste de hiperparámetros.|Hugo|7|29-03-25|05-04-25| |
-|Validación del modelo  SSAE mediante validación cruzada<br> estratificada k-fold y ajuste de hiperparámetros.|Daniel|7|29-03-25|05-04-25| |
-|Implementación de un  modelo CNN con Transformada<br> de Gabor Ajustada.|Carlos|15|05-04-25|20-04-25| |
+|Validación del modelo  SSAE mediante validación <br>cruzada estratificada k-fold y ajuste de hiperparámetros.|Daniel|7|29-03-25|05-04-25| |
+|Implementación de un  modelo CNN con <br>Transformada de Gabor Ajustada.|Carlos|15|05-04-25|20-04-25| |
 |Implementación de técnicas  elegidas de fusión de<br> características entre los resultados obtenidos <br>de la señal preprocesada.|Hugo|15|05-04-25|20-04-25| |
-|Implementación de un  modelo Multiscale Convolutional Neural<br> Networks (MsCNN).|Daniel|15|05-04-25|20-04-25| |
+|Implementación de un  modelo Multiscale Convolutional<br> Neural Networks (MsCNN).|Daniel|15|05-04-25|20-04-25| |
 |Validación del modelo  CNN con Transformada de<br> Gabor mediante validación cruzada estratificada <br>k-fold y ajuste de hiperparámetros.|Carlos|7|20-04-25|27-04-25| |
 |Validación de las  técnicas de fusión de<br> características.|Hugo|7|20-04-25|27-04-25| |
 |Validación del modelo  MsCNN mediante validación cruzada<br> estratificada k-fold y ajuste de hiperparámetros.|Daniel|7|20-04-25|27-04-25| |
@@ -44,8 +44,8 @@
 |Presentación de TTI <br>|Carlos|21|12-05-25|02-06-25| |
 |Presentación de TTI <br>|Hugo|21|12-05-25|02-06-25| |
 |Presentación de TTI <br>|Daniel|21|12-05-25|02-06-25| |
-|Validación del modelo  SVNN mediante validación cruzada <br> estratificada k-fold y ajuste de hiperparámetros.|Carlos|7|02-06-25|09-06-25| |
-|Validación del modelo  EWANN mediante validación cruzada <br> estratificada k-fold y ajuste de hiperparámetros.|Hugo|7|02-06-25|09-06-25| |
+|Validación del modelo  SVNN mediante validación <br>cruzada  estratificada k-fold y ajuste <br>de hiperparámetros.|Carlos|7|02-06-25|09-06-25| |
+|Validación del modelo  EWANN mediante validación <br>cruzada  estratificada k-fold y ajuste de hiperparámetros.|Hugo|7|02-06-25|09-06-25| |
 |Validación de modelo  de Alexnet con transfer <br> Learning y ajuste de hiperparámetros|Daniel|7|02-06-25|09-06-25| |
 |Validación de los  modelos con distintos conjuntos <br> de datos y ajuste de hiperparámetros|Carlos|15|09-06-25|24-06-25| |
 |Validación de los  modelos con distintos conjuntos <br> de datos y ajuste de hiperparámetros|Hugo|15|09-06-25|24-06-25| |
@@ -65,7 +65,7 @@
 |Validación y ajuste de hiperparámetros de<br> árboles de decisión. |Daniel|15|31-07-25|15-08-25| |
 |Implementación de una Red Neuronal Convolucional <br>(CNN) que utilice los cromatogramas<br> y Topoplots como datos de entrada.|Carlos|15|15-08-25|30-08-25| |
 |Implementación de una segunda Red Neuronal<br> Convolucional (CNN) utilizando Recurrence Plots y<br> Time-Frequency Multichannel Images como entradas.|Hugo |15|15-08-25|30-08-25| |
-|Implementación de una tercer Red Neuronal Convolucional (CNN)<br> utilizando Recurrence Plots e Imágenes de recorrido como entradas.|Daniel|15|15-08-25|30-08-25| |
+|Implementación de una tercer Red Neuronal <br>Convolucional (CNN) utilizando Recurrence Plots e Imágenes<br> de recorrido como entradas.|Daniel|15|15-08-25|30-08-25| |
 |Validación de los resultados del modelo<br> CNN y ajuste de hiperparámetros.|Carlos|21|30-08-25|20-09-25| |
 |Validación de los resultados de la<br> segunda CNN y ajuste de hiperparámetros.|Hugo |21|30-08-25|20-09-25| |
 |Validación de los resultados de la<br> tercera CNN y ajuste de hiperparámetros.|Daniel|21|30-08-25|20-09-25| |
