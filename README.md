@@ -30,12 +30,12 @@
 |Implementación de un  modelo CNN con Batch<br> Normalization.|Hugo|15|14-03-25|29-03-25| |
 |Implementación de un  modelo Stacked Sparse Autoencoders<br> (SSAE).|Daniel|15|14-03-25|29-03-25| |
 |Validación de la  extracción de características específicas<br> de P300.|Carlos|7|29-03-25|05-04-25| |
-|Validación del modelo  CNN con Batch Normalization<br> mediante validación cruzada estratificada k-fold y ajuste de hiperparámetros.|Hugo|7|29-03-25|05-04-25| |
+|Validación del modelo  CNN con Batch Normalization<br> mediante validación cruzada estratificada <br>k-fold y ajuste de hiperparámetros.|Hugo|7|29-03-25|05-04-25| |
 |Validación del modelo  SSAE mediante validación cruzada<br> estratificada k-fold y ajuste de hiperparámetros.|Daniel|7|29-03-25|05-04-25| |
 |Implementación de un  modelo CNN con Transformada<br> de Gabor Ajustada.|Carlos|15|05-04-25|20-04-25| |
-|Implementación de técnicas  elegidas de fusión de<br> características entre los resultados obtenidos de la señal preprocesada.|Hugo|15|05-04-25|20-04-25| |
+|Implementación de técnicas  elegidas de fusión de<br> características entre los resultados obtenidos <br>de la señal preprocesada.|Hugo|15|05-04-25|20-04-25| |
 |Implementación de un  modelo Multiscale Convolutional Neural<br> Networks (MsCNN).|Daniel|15|05-04-25|20-04-25| |
-|Validación del modelo  CNN con Transformada de<br> Gabor mediante validación cruzada estratificada k-fold y ajuste de hiperparámetros.|Carlos|7|20-04-25|27-04-25| |
+|Validación del modelo  CNN con Transformada de<br> Gabor mediante validación cruzada estratificada <br>k-fold y ajuste de hiperparámetros.|Carlos|7|20-04-25|27-04-25| |
 |Validación de las  técnicas de fusión de<br> características.|Hugo|7|20-04-25|27-04-25| |
 |Validación del modelo  MsCNN mediante validación cruzada<br> estratificada k-fold y ajuste de hiperparámetros.|Daniel|7|20-04-25|27-04-25| |
 |Implementación de un  modelo de Support Vector<br> Neural Networks (SVNN).|Carlos|15|27-04-25|12-05-25| |
@@ -57,27 +57,27 @@
 |Estructuración del módulo de clasificación <br>|Carlos|7|09-07-25|16-07-25| |
 |Estructuración del módulo de clasificación <br>|Hugo |7|09-07-25|16-07-25| |
 |Estructuración del módulo de clasificación <br>|Daniel|7|09-07-25|16-07-25| |
-|Implementación de modelo con SVM <br>.|Carlos|15|16-07-25|31-07-25| |
-|Implementación de modelo de Random <br> Forest|Hugo |15|16-07-25|31-07-25| |
-|Implementación de modelo de árboles <br> de decisión|Daniel|15|16-07-25|31-07-25| |
-|Validación de resultados de SVM <br> y ajuste de hiperparámetros.|Carlos|15|31-07-25|15-08-25| |
-|Validación de modelo de Random <br> Forest y ajuste de hiperparámetros. |Hugo |15|31-07-25|15-08-25| |
-|Validación y ajuste de hiperparámetros <br> de árboles de decisión. |Daniel|15|31-07-25|15-08-25| |
-|Implementación de una Red Neuronal <br> Convolucional (CNN) que utilice los cromatogramas y Topoplots como datos de entrada.|Carlos|15|15-08-25|30-08-25| |
-|Implementación de una segunda Red <br> Neuronal Convolucional (CNN) utilizando Recurrence Plots y Time-Frequency Multichannel Images como entradas.|Hugo |15|15-08-25|30-08-25| |
-|Implementación de una tercer Red <br> Neuronal Convolucional (CNN) utilizando Recurrence Plots e Imágenes de recorrido como entradas.|Daniel|15|15-08-25|30-08-25| |
-|Validación de los resultados del <br> modelo CNN y ajuste de hiperparámetros.|Carlos|21|30-08-25|20-09-25| |
-|Validación de los resultados de <br> la segunda CNN y ajuste de hiperparámetros.|Hugo |21|30-08-25|20-09-25| |
-|Validación de los resultados de <br> la tercera CNN y ajuste de hiperparámetros.|Daniel|21|30-08-25|20-09-25| |
-|Desarrollar una Red Neuronal Recurrente <br> GRU (Gated Recurrent Unit) para procesar las señales P300 transformadas.|Carlos|15|20-09-25|05-10-25| |
-|Desarrollar una Red neuronal Convolucional <br> Preentrenada con Res-Net 101|Hugo |15|20-09-25|05-10-25| |
-|Desarrollar una Red Neuronal Recurrente <br> LSTM (Long Short-Term Memory) para procesar las señales P300 transformadas.|Daniel|15|20-09-25|05-10-25| |
-|Implementación de la técnica de <br> ensamble Stacking, combinando todos los modelos creados (CNNs y LSTM).|Carlos|15|05-10-25|20-10-25| |
-|Implementación de la técnica de <br> ensamble Stacking, combinando todos los modelos creados (CNNs y LSTM).|Hugo|15|05-10-25|20-10-25| |
-|Implementación de la técnica de <br> ensamble Stacking, combinando todos los modelos creados (CNNs y LSTM).|Daniel|15|05-10-25|20-10-25| |
-|Validación del rendimiento del ensamble <br> Stacking mediante validación cruzada y ajuste de modelos.|Carlos|15|20-10-25|04-11-25| |
-|Validación del rendimiento del ensamble <br> Stacking mediante validación cruzada y ajuste de modelos.|Hugo |15|20-10-25|04-11-25| |
-|Validación del rendimiento del ensamble <br> Stacking mediante validación cruzada y ajuste de modelos.|Daniel|15|20-10-25|04-11-25| |
+|Implementación de modelo con SVM <br>|Carlos|15|16-07-25|31-07-25| |
+|Implementación de modelo de Random Forest<br>|Hugo |15|16-07-25|31-07-25| |
+|Implementación de modelo de árboles de<br> decisión|Daniel|15|16-07-25|31-07-25| |
+|Validación de resultados de SVM y<br> ajuste de hiperparámetros.|Carlos|15|31-07-25|15-08-25| |
+|Validación de modelo de Random Forest<br> y ajuste de hiperparámetros. |Hugo |15|31-07-25|15-08-25| |
+|Validación y ajuste de hiperparámetros de<br> árboles de decisión. |Daniel|15|31-07-25|15-08-25| |
+|Implementación de una Red Neuronal Convolucional <br>(CNN) que utilice los cromatogramas<br> y Topoplots como datos de entrada.|Carlos|15|15-08-25|30-08-25| |
+|Implementación de una segunda Red Neuronal<br> Convolucional (CNN) utilizando Recurrence Plots y<br> Time-Frequency Multichannel Images como entradas.|Hugo |15|15-08-25|30-08-25| |
+|Implementación de una tercer Red Neuronal Convolucional (CNN)<br> utilizando Recurrence Plots e Imágenes de recorrido como entradas.|Daniel|15|15-08-25|30-08-25| |
+|Validación de los resultados del modelo<br> CNN y ajuste de hiperparámetros.|Carlos|21|30-08-25|20-09-25| |
+|Validación de los resultados de la<br> segunda CNN y ajuste de hiperparámetros.|Hugo |21|30-08-25|20-09-25| |
+|Validación de los resultados de la<br> tercera CNN y ajuste de hiperparámetros.|Daniel|21|30-08-25|20-09-25| |
+|Desarrollar una Red Neuronal Recurrente GRU <br>(Gated Recurrent Unit) para procesar las señales P300 transformadas.|Carlos|15|20-09-25|05-10-25| |
+|Desarrollar una Red neuronal Convolucional Preentrenada<br> con Res-Net 101|Hugo |15|20-09-25|05-10-25| |
+|Desarrollar una Red Neuronal Recurrente LSTM <br>(Long Short-Term Memory) para procesar las señales P300 transformadas.|Daniel|15|20-09-25|05-10-25| |
+|Implementación de la técnica de ensamble<br> Stacking, combinando todos los modelos creados (CNNs y LSTM).|Carlos|15|05-10-25|20-10-25| |
+|Implementación de la técnica de ensamble<br> Stacking, combinando todos los modelos creados (CNNs y LSTM).|Hugo|15|05-10-25|20-10-25| |
+|Implementación de la técnica de ensamble<br> Stacking, combinando todos los modelos creados (CNNs y LSTM).|Daniel|15|05-10-25|20-10-25| |
+|Validación del rendimiento del ensamble Stacking<br> mediante validación cruzada y ajuste de modelos.|Carlos|15|20-10-25|04-11-25| |
+|Validación del rendimiento del ensamble Stacking<br> mediante validación cruzada y ajuste de modelos.|Hugo |15|20-10-25|04-11-25| |
+|Validación del rendimiento del ensamble Stacking<br> mediante validación cruzada y ajuste de modelos.|Daniel|15|20-10-25|04-11-25| |
 |Finalización de módulo de clasificación <br>|Carlos|15|04-11-25|19-11-25| |
 |Finalización de módulo de clasificación <br>|Hugo |15|04-11-25|19-11-25| |
 |Finalización de módulo de clasificación <br>|Daniel|15|04-11-25|19-11-25| |
