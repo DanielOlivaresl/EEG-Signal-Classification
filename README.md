@@ -1,5 +1,5 @@
 | Tarea |Asignado a|&nbsp;&nbsp;&nbsp;Inicio&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|State|
-|:--------------------------------------:|:-------------------:|:--------:|:----------:|:--------:|
+|:--------------------------------------:|:-------------------:|:--------:|:----------:|:-:|
 | **Fase 1: Preprocesamiento de datos** | | | | |
 |Estructuración del módulo de preprocesamiento <br>|&nbsp;&nbsp;&nbsp;Hugo&nbsp;&nbsp;&nbsp;|01-01-25|08-01-25| |
 |Estructuración del módulo de preprocesamiento <br>|Daniel|01-01-25|08-01-25| |
