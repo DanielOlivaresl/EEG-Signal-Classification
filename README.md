@@ -13,7 +13,7 @@
 |Implementación, análisis y selección de métodos para<br> la transformación de patrones<br> como imágenes|Carlos|15|30-01-25|14-02-25| |
 |Implementación, análisis y selección <br> de métodos de filtrado|Hugo|15|30-01-25|14-02-25| |
 |Implementación, análisis y selección <br> de métodos de análisis de componentes|Daniel|15|30-01-25|14-02-25| |
-|Creación e implementación de los <br> métodos para la creación de patrones como imágenes|Carlos|7|14-02-25|21-02-25| |
+|Creación e implementación de los <br> métodos para la creación de patrones <br>como imágenes|Carlos|7|14-02-25|21-02-25| |
 |Creación e implementación de los <br> métodos para filtrado|Hugo|7|14-02-25|21-02-25| |
 |Creación e implementación de los <br> métodos para componentes|Daniel|7|14-02-25|21-02-25| |
 |Integración de los métodos de <br> preprocesamiento elegidos al sistema|Carlos|7|21-02-25|28-02-25| |
