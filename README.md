@@ -10,7 +10,7 @@
 |Investigación y Análisis de métodos <br> de preprocesamiento|Carlos|15|15-01-25|30-01-25| |
 |Investigación y Análisis de métodos <br> de preprocesamiento|Hugo|15|15-01-25|30-01-25| |
 |Investigación y Análisis de métodos <br> de preprocesamiento|Daniel|15|15-01-25|30-01-25| |
-|Implementación, análisis y selección de métodos<br> para la transformación de patrones como imágenes|Carlos|15|30-01-25|14-02-25| |
+|Implementación, análisis y selección de métodos para<br> la transformación de patrones<br> como imágenes|Carlos|15|30-01-25|14-02-25| |
 |Implementación, análisis y selección <br> de métodos de filtrado|Hugo|15|30-01-25|14-02-25| |
 |Implementación, análisis y selección <br> de métodos de análisis de componentes|Daniel|15|30-01-25|14-02-25| |
 |Creación e implementación de los <br> métodos para la creación de patrones como imágenes|Carlos|7|14-02-25|21-02-25| |
