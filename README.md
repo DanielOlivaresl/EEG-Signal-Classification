@@ -1,4 +1,4 @@
-| Tarea | Asignado a|dias|         Inicio         |   Fin   |State|
+| Tarea | Asignado a|dias|InicioInicioInicioInicioInicio|   Fin   |State|
 |----------|------------|------------|------------|------------|------------|
 | **Fase 1: Preprocesamiento de datos** | | | | | |
 |Estructuración del módulo de preprocesamiento <br>|Carlos|7|01-01-25|08-01-25||
