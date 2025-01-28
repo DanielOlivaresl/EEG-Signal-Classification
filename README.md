@@ -8,10 +8,10 @@
 |Investigación y Recopilación de conjunto <br> de datos de Habla Interna|Daniel|08-01-25|15-01-25|✅|
 |Investigación y Análisis de métodos <br> de preprocesamiento|Carlos|15-01-25|30-01-25| |
 |Investigación y Análisis de métodos <br> de preprocesamiento|Hugo|15-01-25|30-01-25| |
-|Investigación y Análisis de métodos <br> de preprocesamiento|Daniel|15-01-25|30-01-25| |
+|Investigación y Análisis de métodos <br> de preprocesamiento|Daniel|15-01-25|30-01-25|✅|
 |Implementación, análisis y selección de métodos para<br> la transformación de patrones<br> como imágenes|Carlos|30-01-25|14-02-25| |
 |Implementación, análisis y selección <br> de métodos de filtrado|Hugo|30-01-25|14-02-25| |
-|Implementación, análisis y selección <br> de métodos de análisis de componentes|Daniel|30-01-25|14-02-25| |
+|Implementación, análisis y selección <br> de métodos de análisis de componentes|Daniel|30-01-25|14-02-25|✅|
 |Creación e implementación de los <br> métodos para la creación de patrones <br>como imágenes|Carlos|14-02-25|21-02-25| |
 |Creación e implementación de los <br> métodos para filtrado|Hugo|14-02-25|21-02-25| |
 |Creación e implementación de los <br> métodos para componentes|Daniel|14-02-25|21-02-25| |
