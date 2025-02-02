@@ -1,0 +1,68 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+; Exported using pybv 0.7.5
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-7_ses-9_task-innerspeech_eeg.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+;             <Size in data points>, <Channel number (0 = marker is related to all channels)>
+;             <Date (YYYYMMDDhhmmssuuuuuu)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=Comment,WarmUp,1,15056,0
+Mk2=Comment,Rest,15057,2631,0
+Mk3=Comment,Wait,17688,258,0
+Mk4=Comment,Right,17946,1244,0
+Mk5=Comment,Wait,19190,156,0
+Mk6=Comment,Rest,19346,2596,0
+Mk7=Comment,Wait,21942,387,0
+Mk8=Comment,Right,22329,1320,0
+Mk9=Comment,Wait,23649,291,0
+Mk10=Comment,Rest,23940,2507,0
+Mk11=Comment,Wait,26447,228,0
+Mk12=Comment,Up,26675,1273,0
+Mk13=Comment,Wait,27948,998,0
+Mk14=Comment,Rest,28946,2505,0
+Mk15=Comment,Wait,31451,281,0
+Mk16=Comment,Left,31732,1217,0
+Mk17=Comment,Wait,32949,1551,0
+Mk18=Comment,Rest,34500,2457,0
+Mk19=Comment,Wait,36957,122,0
+Mk20=Comment,Up,37079,1320,0
+Mk21=Comment,Wait,38399,166,0
+Mk22=Comment,Rest,38565,2395,0
+Mk23=Comment,Wait,40960,139,0
+Mk24=Comment,Left,41099,1320,0
+Mk25=Comment,Wait,42419,304,0
+Mk26=Comment,Rest,42723,2493,0
+Mk27=Comment,Wait,45216,178,0
+Mk28=Comment,Down,45394,1320,0
+Mk29=Comment,Wait,46714,236,0
+Mk30=Comment,Rest,46950,2520,0
+Mk31=Comment,Wait,49470,321,0
+Mk32=Comment,Up,49791,1195,0
+Mk33=Comment,Wait,50986,303,0
+Mk34=Comment,Rest,51289,2435,0
+Mk35=Comment,Wait,53724,166,0
+Mk36=Comment,Select,53890,1319,0
+Mk37=Comment,Wait,55209,97,0
+Mk38=Comment,Rest,55306,2421,0
+Mk39=Comment,Wait,57727,183,0
+Mk40=Comment,Select,57910,1319,0
+Mk41=Comment,Wait,59229,127,0
+Mk42=Comment,Rest,59356,2627,0
+Mk43=Comment,Wait,61983,298,0
+Mk44=Comment,Right,62281,1202,0
+Mk45=Comment,Wait,63483,235,0
+Mk46=Comment,Rest,63718,2518,0
+Mk47=Comment,Wait,66236,228,0
+Mk48=Comment,Select,66464,1275,0
+Mk49=Comment,Wait,67739,215,0
+Mk50=Comment,Rest,67954,2537,0
+Mk51=Comment,Wait,70491,264,0
+Mk52=Comment,Right,70755,1238,0
+Mk53=Comment,Wait,71993,86,0
+Mk54=Comment,Rest,72079,2416,0
+Mk55=Comment,Wait,74495,352,0

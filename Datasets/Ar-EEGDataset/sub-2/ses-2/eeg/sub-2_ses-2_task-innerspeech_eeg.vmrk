@@ -1,0 +1,105 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+; Exported using pybv 0.7.5
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-2_ses-2_task-innerspeech_eeg.eeg
+
+[Marker Infos]
+; Each entry: Mk<Marker number>=<Type>,<Description>,<Position in data points>,
+;             <Size in data points>, <Channel number (0 = marker is related to all channels)>
+;             <Date (YYYYMMDDhhmmssuuuuuu)>
+; Fields are delimited by commas, some fields might be omitted (empty).
+; Commas in type or description text are coded as "\1".
+Mk1=Comment,WarmUp,1,15029,0
+Mk2=Comment,Rest,15030,2509,0
+Mk3=Comment,Wait,17539,192,0
+Mk4=Comment,Right,17731,1256,0
+Mk5=Comment,Wait,18987,353,0
+Mk6=Comment,Rest,19340,2506,0
+Mk7=Comment,Wait,21846,184,0
+Mk8=Comment,Down,22030,1254,0
+Mk9=Comment,Wait,23284,196,0
+Mk10=Comment,Rest,23480,2511,0
+Mk11=Comment,Wait,25991,179,0
+Mk12=Comment,Select,26170,1255,0
+Mk13=Comment,Wait,27425,194,0
+Mk14=Comment,Rest,27619,2507,0
+Mk15=Comment,Wait,30126,248,0
+Mk16=Comment,Up,30374,1254,0
+Mk17=Comment,Wait,31628,336,0
+Mk18=Comment,Rest,31964,2507,0
+Mk19=Comment,Wait,34471,177,0
+Mk20=Comment,Select,34648,1254,0
+Mk21=Comment,Wait,35902,231,0
+Mk22=Comment,Rest,36133,2506,0
+Mk23=Comment,Wait,38639,153,0
+Mk24=Comment,Up,38792,1255,0
+Mk25=Comment,Wait,40047,277,0
+Mk26=Comment,Rest,40324,2506,0
+Mk27=Comment,Wait,42830,151,0
+Mk28=Comment,Right,42981,1253,0
+Mk29=Comment,Wait,44234,279,0
+Mk30=Comment,Rest,44513,2507,0
+Mk31=Comment,Wait,47020,129,0
+Mk32=Comment,Down,47149,1256,0
+Mk33=Comment,Wait,48405,179,0
+Mk34=Comment,Rest,48584,2507,0
+Mk35=Comment,Wait,51091,168,0
+Mk36=Comment,Up,51259,1256,0
+Mk37=Comment,Wait,52515,207,0
+Mk38=Comment,Rest,52722,2507,0
+Mk39=Comment,Wait,55229,146,0
+Mk40=Comment,Select,55375,1253,0
+Mk41=Comment,Wait,56628,126,0
+Mk42=Comment,Rest,56754,2507,0
+Mk43=Comment,Wait,59261,110,0
+Mk44=Comment,Left,59371,1254,0
+Mk45=Comment,Wait,60625,258,0
+Mk46=Comment,Rest,60883,2506,0
+Mk47=Comment,Wait,63389,216,0
+Mk48=Comment,Select,63605,1255,0
+Mk49=Comment,Wait,64860,370,0
+Mk50=Comment,Rest,65230,2507,0
+Mk51=Comment,Left,67737,1256,0
+Mk52=Comment,Rest,68993,2509,0
+Mk53=Comment,Up,71502,1252,0
+Mk54=Comment,Rest,72754,2508,0
+Mk55=Comment,Down,75262,1254,0
+Mk56=Comment,Wait,76516,1,0
+Mk57=Comment,Rest,76517,2508,0
+Mk58=Comment,Down,79025,1255,0
+Mk59=Comment,Rest,80280,2506,0
+Mk60=Comment,Wait,82786,1,0
+Mk61=Comment,Down,82787,1256,0
+Mk62=Comment,Rest,84043,2504,0
+Mk63=Comment,Wait,86547,3,0
+Mk64=Comment,Left,86550,1255,0
+Mk65=Comment,Wait,87805,139,0
+Mk66=Comment,Rest,87944,2509,0
+Mk67=Comment,Wait,90453,163,0
+Mk68=Comment,Right,90616,1253,0
+Mk69=Comment,Wait,91869,261,0
+Mk70=Comment,Rest,92130,2507,0
+Mk71=Comment,Wait,94637,470,0
+Mk72=Comment,Left,95107,1256,0
+Mk73=Comment,Wait,96363,175,0
+Mk74=Comment,Rest,96538,2506,0
+Mk75=Comment,Wait,99044,143,0
+Mk76=Comment,Right,99187,1255,0
+Mk77=Comment,Wait,100442,171,0
+Mk78=Comment,Rest,100613,2505,0
+Mk79=Comment,Wait,103118,137,0
+Mk80=Comment,Left,103255,1253,0
+Mk81=Comment,Wait,104508,368,0
+Mk82=Comment,Rest,104876,2509,0
+Mk83=Comment,Wait,107385,159,0
+Mk84=Comment,Up,107544,1250,0
+Mk85=Comment,Wait,108794,169,0
+Mk86=Comment,Rest,108963,2508,0
+Mk87=Comment,Wait,111471,171,0
+Mk88=Comment,Select,111642,1255,0
+Mk89=Comment,Wait,112897,235,0
+Mk90=Comment,Rest,113132,2509,0
+Mk91=Comment,Wait,115641,108,0
+Mk92=Comment,Right,115749,1256,0
