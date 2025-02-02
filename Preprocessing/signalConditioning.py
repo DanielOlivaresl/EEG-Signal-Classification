@@ -58,3 +58,6 @@ def normalize(data):
     data_reshaped = data.reshape(-1,data.shape[-1]) #Flatten
     data_normalized = scaler.fit_transform(data_reshaped)
     data_normalized = data_normalized.reshape(data.shape)
+
+
+    return data_normalized 
