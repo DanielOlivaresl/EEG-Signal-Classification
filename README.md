@@ -4,7 +4,7 @@
 |Estructuración del módulo de preprocesamiento <br>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hugo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|01-01-25|08-01-25|✅|
 |Estructuración del módulo de preprocesamiento <br>|Daniel|01-01-25|08-01-25| |
 |Desarrollo de software para visualización <br> de conjuntos de datos|Carlos|08-01-25|15-01-25| |
-|Investigación y Recopilación de conjunto <br> de datos de P300|Hugo|08-01-25|15-01-25| |
+|Investigación y Recopilación de conjunto <br> de datos de P300|Hugo|08-01-25|15-01-25|✅|
 |Investigación y Recopilación de conjunto <br> de datos de Habla Interna|Daniel|08-01-25|15-01-25|✅|
 |Investigación y Análisis de métodos <br> de preprocesamiento|Carlos|15-01-25|30-01-25| |
 |Investigación y Análisis de métodos <br> de preprocesamiento|Hugo|15-01-25|30-01-25| |
