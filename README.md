@@ -2,7 +2,7 @@
 |:--------------------------------------:|:-------------------:|:--------:|:----------:|:-:|
 | **Fase 1: Preprocesamiento de datos** | | | | |
 |Estructuración del módulo de preprocesamiento <br>|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hugo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|01-01-25|08-01-25|✅|
-|Estructuración del módulo de preprocesamiento <br>|Daniel|01-01-25|08-01-25| |
+|Estructuración del módulo de preprocesamiento <br>|Daniel|01-01-25|08-01-25|✅|
 |Desarrollo de software para visualización <br> de conjuntos de datos|Carlos|08-01-25|15-01-25| |
 |Investigación y Recopilación de conjunto <br> de datos de P300|Hugo|08-01-25|15-01-25|✅|
 |Investigación y Recopilación de conjunto <br> de datos de Habla Interna|Daniel|08-01-25|15-01-25|✅|
