@@ -1,68 +1,70 @@
-import itertools
-from azureml.core import Workspace, Dataset, Experiment
-from azureml.core import PythonScriptStep
-from azureml.core.runconfig import RunConfiguration
+from azureml.pipeline.steps import PythonScriptStep
+from azureml.pipeline.core import PipelineData
+from azureml.core import Dataset,Environment
 
+def create_pipeline_steps(ws, preprocessing_order):
+    env = Environment.get(ws, "AzureML-ACPT-pytorch-1.13-py38-cuda11.7-gpu")
+    dataset = Dataset.get_by_name(ws, "EEG_Raw_Signal_Dataset")
+    input_data = dataset.as_named_input("raw_data")  
 
+    # Create intermediate output for aggregated data
+    aggregated_data = PipelineData("aggregated_data", datastore=ws.get_default_datastore())
 
+    # Step 1: Data Aggregation Step
+    data_aggregation_step = PythonScriptStep(
+        name="Data Aggregation",
+        script_name="aggregate_data.py",  # This script will merge multiple files into one list/array
+        arguments=["--input", input_data, "--output", aggregated_data],
+        inputs=[input_data],
+        outputs=[aggregated_data],
+        compute_target="eegCompute",
+        runconfig=None,
+        source_directory="./Automatation"
+    )
 
+    # Update input for preprocessing steps
+    previous_output = aggregated_data
+    steps = [data_aggregation_step]
 
-
-def create_pipeline_steps(ws,preprocessing_order):
-    
-    
-
-    #Get dataset, assuming the dataset is uploaded to our workspace 
-
-    datastore = ws.get_default_datastore()
-
-    dataset = Dataset.file.from_files(path=(datastore, 'datasetName.fileExtension'))
-
-
-    #Define compute target (cluster or an instance)
-
-    compute_target = ws.compute_targets['compute_target_name']
-
-
-
-    #Define the run configuration (Optional, if we need to specify the environment)
-    run_config = RunConfiguration()
-    # run_config.environment = my_custom_environment
-
- 
-    #List that stores the Preprocessing Steps
-    steps = [] 
-
-    #Input data 
-
-    previous_output = "data/input.npy"
-
-    #Map the preproccessing methods 
-
-    methods_map= {
+    # Preprocessing steps
+    methods_map = {
         "notch_filter": "../Preprocessing/signalConditioning.py",
-        "bandpass_filter" :"../Preprocessing/signalConditioning.py"
+        "bandpass_filter": "../Preprocessing/signalConditioning.py",
+        "mean_referencing": "../Preprocessing/signalConditioning.py",
+        "scale_signal": "../Preprocessing/signalConditioning.py",
+        "normalize": "../Preprocessing/signalConditioning.py"
     }
 
+    for method in preprocessing_order:
+        
+        output_data = PipelineData(f"{method}_output", datastore=ws.get_default_datastore())
 
-    for method in preprocessing_order: 
         step = PythonScriptStep(
-            name = f"{method.capitalize()} Step", 
-            script_name = methods_map[method],
-            arguments = ["--method",method,"--input",previous_output,"--output",f"outputs/{method}_output.npy"],
-            # arguments=["--input", previous_output, "--output", f"outputs/{method}_output.npy"], Example for when a preprocessing step is in it's own file
-            compute_target = "your_compute_target",
-            runconfig = RunConfiguration(), 
-            source_directory = "Pipeline"
+            name=f"{method.capitalize()} Step",
+            script_name=methods_map[method],
+            arguments=["--method", method, "--input", previous_output, "--output", output_data],
+            inputs=[previous_output],
+            outputs=[output_data],
+            compute_target="eegCompute",
+            runconfig=None,
+            source_directory="./Automatation"
         )
-        
-        #We add the current step to the list 
-        
+
         steps.append(step)
-        
-        previous_output = f"outputs/{method}_output.npy"
-    
+        previous_output = output_data
+
+    # Training step
+    train_step = PythonScriptStep(
+        name="Model Training",
+        script_name="train.py",
+        arguments=["--input", previous_output],
+        inputs=[previous_output],
+        compute_target="eegCompute",
+        source_directory="./Automatation",
+        runconfig=None,
+        allow_reuse=True
+    )
+
+    steps.append(train_step)
+
     return steps
-
-
-
