@@ -9,6 +9,10 @@ dependencies:
 # - numpy=1.26.4/
 - scipy~=1.14.0
 - pip:
+  - mldesigner==0.1.0b12
+  - azure-ai-ml >=1.2.0
+  - azure-identity
+  - mldesigner
   - numpy==1.26.4
   - setuptools==72.1.0
   - wheel==0.44.0

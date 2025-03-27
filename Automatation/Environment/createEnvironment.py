@@ -44,6 +44,4 @@ conda_env = Environment(
     
     )
 
-
-
 client.environments.create_or_update(conda_env)
