@@ -14,7 +14,7 @@
 |Implementación, análisis y selección <br> de métodos de análisis de componentes|Daniel|30-01-25|14-02-25|✅|
 |Creación e implementación de los <br> métodos para la creación de patrones <br>como imágenes|Carlos|14-02-25|21-02-25| |
 |Creación e implementación de los <br> métodos para filtrado|Hugo|14-02-25|21-02-25| |
-|Creación e implementación de los <br> métodos para componentes|Daniel|14-02-25|21-02-25| |
+|Creación e implementación de los <br> métodos para componentes|Daniel|14-02-25|21-02-25|✅|
 |Integración de los métodos de <br> preprocesamiento elegidos al sistema|Carlos|21-02-25|28-02-25| |
 |Integración de los métodos de <br> preprocesamiento elegidos al sistema|Hugo|21-02-25|28-02-25| |
 |Integración de los métodos de <br> preprocesamiento elegidos al sistema|Daniel|21-02-25|28-02-25| |
