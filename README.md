@@ -17,10 +17,10 @@
 |Creación e implementación de los <br> métodos para componentes|Daniel|14-02-25|21-02-25|✅|
 |Integración de los métodos de <br> preprocesamiento elegidos al sistema|Carlos|21-02-25|28-02-25| |
 |Integración de los métodos de <br> preprocesamiento elegidos al sistema|Hugo|21-02-25|28-02-25| |
-|Integración de los métodos de <br> preprocesamiento elegidos al sistema|Daniel|21-02-25|28-02-25| |
-|Análisis y reestructuración del módulo <br> de preprocesamiento|Carlos|28-02-25|07-03-25| |
-|Análisis y reestructuración del módulo <br> de preprocesamiento|Hugo|28-02-25|07-03-25| |
-|Análisis y reestructuración del módulo <br> de preprocesamiento|Daniel|28-02-25|07-03-25| |
+|Integración de los métodos de <br> preprocesamiento elegidos al sistema|Daniel|21-02-25|28-02-25|✅|
+|Análisis y reestructuración del módulo <br> de preprocesamiento|Carlos|28-02-25|07-03-25|✅|
+|Análisis y reestructuración del módulo <br> de preprocesamiento|Hugo|28-02-25|07-03-25|✅|
+|Análisis y reestructuración del módulo <br> de preprocesamiento|Daniel|28-02-25|07-03-25|✅|
 | **Fase 2: Implementación de Modelos de Detección de P300** | | | | | |
 |Estructuración del módulo  de detección de P300<br>|Carlos|07-03-25|14-03-25| |
 |Estructuración del módulo  de detección de P300<br>|Hugo|07-03-25|14-03-25| |
