@@ -240,7 +240,22 @@ ENV PATH=$CONDA_PREFIX/bin:$PATH
 RUN apt-get update
 RUN apt-get install -y openssh-server openssh-client
 
-# Create conda environment
+
+# Copy poetry files into the container
+COPY pyproject.toml poetry.lock ./
+
+# Copy the built .tar.gz package into the container
+COPY dist/preprocessing-0.1.0-py3-none-any.whl /tmp/
+
+RUN curl -sSL https://install.python-poetry.org | python3 - && \
+    export PATH="/root/.local/bin:$PATH" && \
+    poetry --version && \
+    poetry install --no-root --only main && \
+    poetry run pip install /tmp/preprocessing-0.1.0-py3-none-any.whl
+# Install dependencies and the package using Poetry
+
+
+ # Create conda environment
 COPY conda_dependencies.yaml .
 RUN conda env create -p $CONDA_PREFIX -f conda_dependencies.yaml -q && \
     rm conda_dependencies.yaml && \
@@ -248,6 +263,8 @@ RUN conda env create -p $CONDA_PREFIX -f conda_dependencies.yaml -q && \
     conda clean -a -y
 
 RUN conda run -p $CONDA_PREFIX
+
+
 
 RUN HOROVOD_WITH_TENSORFLOW=1 pip install horovod[tensorflow]
 
