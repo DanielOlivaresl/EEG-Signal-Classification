@@ -245,13 +245,13 @@ RUN apt-get install -y openssh-server openssh-client
 COPY pyproject.toml poetry.lock ./
 
 # Copy the built .tar.gz package into the container
-COPY dist/preprocessing-0.1.0-py3-none-any.whl /tmp/
+COPY dist/preprocessing-0.1.0-py3-none-any.whl /dist/
 
 RUN curl -sSL https://install.python-poetry.org | python3 - && \
     export PATH="/root/.local/bin:$PATH" && \
-    poetry --version && \
+    poetry config virtualenvs.create false && \
     poetry install --no-root --only main && \
-    poetry run pip install /tmp/preprocessing-0.1.0-py3-none-any.whl
+    pip install dist/preprocessing-0.1.0-py3-none-any.whl
 # Install dependencies and the package using Poetry
 
 
